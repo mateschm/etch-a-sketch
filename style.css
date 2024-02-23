@@ -1,5 +1,4 @@
 * {
-    margin: 0;
     padding: 0;
 }
 
@@ -7,16 +6,24 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
     background-color: black;
+    flex-direction: column;
 }
 
 .container {
-    height: 500px;
+    width: 1000px;
     border: solid white;
     border-width: 1px;
     display: flex;
     flex-wrap: wrap;
-    flex: 0 0 500px;
+    flex: 0 0 1000px;
+    margin: 25px;
+}
+
+button {
+    width: 250px; 
+    height: 50px;
+    font-size: 20px;
+    margin-top: 25px;
 }
 
