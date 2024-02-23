@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+}
+
+.container {
+    height: 500px;
+    border: solid white;
+    border-width: 1px;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 500px;
+}
+
